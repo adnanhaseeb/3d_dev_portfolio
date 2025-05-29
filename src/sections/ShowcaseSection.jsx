@@ -48,30 +48,35 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
+            <div >
               <img src="/images/project1.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                On-Demand 3d developer portfolio
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                An web app built using React, tailwind css, and Three.js to showcase
+                my 3D development skills and projects. It features interactive 3D models,
+                animations, and a responsive design that adapts to different devices.
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <div>
                 <img
                   src="/images/project2.png"
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>SuperCrypt, Crypto Trading Platform</h2>
+              <p className="text-white-50 md:text-xl">
+                An web app built using django, python, machine learning to predict
+                crypto prices and help users make informed trading decisions. And deployed
+                on docker for scalability and reliability.
+              </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
