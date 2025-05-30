@@ -34,7 +34,7 @@ const Hero = () => {
       <div className="absolute md:right-0 right-0 top-0 h-full md:w-1/2 w-full z-10 pointer-events-none">
         <Canvas>
           <Suspense fallback={null}>
-            <Particles count={200} />
+            <Particles count={100} />
           </Suspense>
         </Canvas>
       </div>

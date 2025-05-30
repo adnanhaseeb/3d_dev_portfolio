@@ -93,16 +93,11 @@ const Contact = () => {
                   />
                 </div>
 
-                <button type="submit">
-                  <div className="cta-button group">
-                    <div className="bg-circle" />
-                    <p className="text">
-                      {loading ? "Sending..." : "Send Message"}
-                    </p>
-                    <div className="arrow-wrapper">
-                      <img src="/images/arrow-down.svg" alt="arrow" />
-                    </div>
-                  </div>
+                <button
+                  type="submit"
+                  className="relative group overflow-hidden w-full py-3 px-6 rounded-lg border-2 border-white-500 text-black bg-white hover:bg-black hover:text-white transition-all duration-300 ease-in-out font-semibold tracking-wide hover:scale-105 active:scale-100"
+                >
+                  {loading ? "Sending..." : "Send Message"}
                 </button>
               </form>
             </div>
