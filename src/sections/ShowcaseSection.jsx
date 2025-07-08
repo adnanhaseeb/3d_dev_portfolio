@@ -80,10 +80,13 @@ const AppShowcase = () => {
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
+              <div>
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>TikTok Comment Scraper</h2>
+              <p className="text-white-50 md:text-xl">
+                A custom Python automation tool built using Selenium and Pandas to extract TikTok comment data from a list of video URLs. It captures usernames, comment text, likes, and replies, then exports everything into a clean Excel file — perfect for social media analysis, influencer insights, or NLP datasets.
+              </p>
             </div>
           </div>
         </div>
